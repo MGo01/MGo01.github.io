@@ -86,7 +86,7 @@ body {
     font-size: 20px;
     line-height: 25px;
     
-    color: #4D455D;
+    color: #EB455F;
 
     text-decoration-line: underline;
     text-underline-position: under;
@@ -99,6 +99,10 @@ body {
 
 p.icon-item:not(:last-child) { 
     margin-bottom: 3px;  
+}
+
+a {
+    display:inline-block;
 }
 
 
