@@ -1,0 +1,105 @@
+body {
+    background-color: F5E9CF;
+}
+
+/* Software Engineer, Film Enthusiast, Dog Owner */
+.title_text, .welcome_text {
+    position: absolute;
+    width: 540px;
+    height: 25px;
+    
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    text-underline-position: under;
+    
+    color: #4D455D;
+}
+
+.inner_text {
+    position: absolute;
+    width: 540px;
+    height: 25px;
+    
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #4D455D;
+}
+
+.container {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+
+    margin-top: 8%;
+
+    border-left: 2px solid #7DB9B6;
+    border-top: 2px solid #7DB9B6;
+}
+
+.image_list {
+    padding-top: 40px;
+}
+
+#main_body_column {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#social_links {
+    padding-top: 320px;
+    padding-bottom: 0px;
+}
+
+#project_container {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 30px; 
+}
+
+#project_list {
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 0px;
+
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#project-item {
+    position: absolute;
+    width: 540px;
+    height: 25px;
+    
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #4D455D;
+
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+.twitter_icon {
+    width: 28px;
+    height: 28px;
+}
+
+p.icon-item:not(:last-child) { 
+    margin-bottom: 3px;  
+}
+
+
+
